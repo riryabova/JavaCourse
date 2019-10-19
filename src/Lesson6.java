@@ -35,7 +35,7 @@ public class Lesson6 {
     }
 
     void input(Lesson6 l6) {
-        float num = 0;
+
         Scanner input = new Scanner(System.in);
         try {
             System.out.println("Input any number");
