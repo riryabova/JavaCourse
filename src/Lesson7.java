@@ -37,7 +37,7 @@ public class Lesson7 {
     }
 
     void comparison(Lesson7 l7) {
-        if ((l7.num == x) || (l7.num == y) || (l7.num == z)) {
+        if (l7.num == x || l7.num == y || l7.num == z) {
             System.out.println("Данное значение имеется в константах");
         } else {
             System.out.println("Такой константы нет!");
