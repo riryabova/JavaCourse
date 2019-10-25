@@ -9,16 +9,15 @@ public class Lesson9 {
         num = input.nextInt();
 
         int mas[] = new int[num];
-        for (int i=0;i<num;i++){
+        for (int i = 0; i < num; i++) {
             Scanner masElement = new Scanner(System.in);
-            System.out.println("Input "+i+" element");
+            System.out.println("Input " + i + " element");
             mas[i] = input.nextInt();
         }
         System.out.println("Your new mas:");
-        for (int j=0;j<num;j++){
-            System.out.println(j+" element = "+mas[j]*2);
+        for (int j = 0; j < num; j++) {
+            System.out.println(j + " element = " + mas[j] * 2);
         }
-
 
 
     }
