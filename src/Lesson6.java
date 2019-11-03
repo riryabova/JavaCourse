@@ -24,10 +24,10 @@ public class Lesson6 {
         float avg = (x.num + y.num + z.num) / 3;
         System.out.println("Average =" + avg);
 
-        int halfAvg=(int)avg/2;
-        System.out.println("halfAvg="+halfAvg);
+        int halfAvg = (int) avg / 2;
+        System.out.println("halfAvg=" + halfAvg);
 
-        if (halfAvg>3){
+        if (halfAvg > 3) {
             System.out.println("Программа выполнена корректно");
         }
 
@@ -37,17 +37,10 @@ public class Lesson6 {
     void input(Lesson6 l6) {
 
         Scanner input = new Scanner(System.in);
-        try {
-            System.out.println("Input any number");
-            num = input.nextFloat();
 
-        } catch (InputMismatchException e) {
-            System.out.println(e.getStackTrace());
-            input.useLocale(Locale.US);  //с точкой берет разделителем
-            num = input.nextFloat();
-            this.num = num;
-            return;
-        }
+        System.out.println("Input any number");
+        num = input.nextFloat();
+
         this.num = num;
         return;
     }
