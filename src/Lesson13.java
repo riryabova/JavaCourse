@@ -17,9 +17,9 @@ public class Lesson13 {
         if (s1.s.length() == s2.s.length()) {
             System.out.println("Lengths equal");
         } else if (len1 > len2) {
-            System.out.println("First string = " + s1.s);
+            System.out.println("Первая строка длинее = " + s1.s);
         } else {
-            System.out.println("Second string = " + s2.s);
+            System.out.println("Вторая строка длинее = " + s2.s);
         }
     }
 
