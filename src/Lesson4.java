@@ -13,7 +13,7 @@ public class Lesson4 {
 
         try {
             int decNum = Integer.parseInt(l4.num, 2);
-            System.out.println("You input number in decimal = " + decNum);
+            System.out.println("Your input number in decimal = " + decNum);
         } catch (NumberFormatException e) {
             System.out.println("You input incorrect number");
         }
@@ -22,7 +22,7 @@ public class Lesson4 {
     void input(Lesson4 l4) {
         String num;
         Scanner input = new Scanner(System.in);
-        System.out.println("Input a byte number");
+        System.out.println("Input a binary number");
         num = input.nextLine();
         this.num = num;
         return;
